@@ -58,7 +58,7 @@ public class Application {
     System.out.println(arenaUpdate);
     String[] commands = new String[]{"F", "R", "L", "T"};
     int i = new Random().nextInt(4);
-      System.out.println("Command = " + commands[i]);
+      System.out.println("The new command = " + commands[i]);
     return commands[i];
   }
 
